@@ -1,10 +1,15 @@
-# README
-
 # DataDiffAnalyzer
 
 ## Project Summary
 
 DataDiffAnalyzer is a lightweight Ruby on Rails application designed to efficiently analyze data files and identify the smallest difference between specified values.
+
+## Prerequisites
+
+- **Ruby version**: 3.2.2
+- **Rails version**: 7.0.8
+
+Ensure you have the specified versions of Ruby and Rails installed to avoid
 
 ## Installation
 
