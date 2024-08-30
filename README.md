@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# DataDiffAnalyzer
 
-Things you may want to cover:
+## Project Summary
 
-* Ruby version
+DataDiffAnalyzer is a lightweight Ruby on Rails application designed to efficiently analyze data files and identify the smallest difference between specified values.
 
-* System dependencies
+## Installation
 
-* Configuration
+To set up and run the DataDiffAnalyzer, follow these simple steps:
 
-* Database creation
+1. **Clone the repository**
 
-* Database initialization
+   ```bash
+   git clone https://github.com/dllopes/data_diff_analyzer.git
+   cd data_diff_analyzer
 
-* How to run the test suite
+2. **Install dependencies**
 
-* Services (job queues, cache servers, search engines, etc.)
+   ```bash
+   bundle install
+   
+3. **Running the Application**
 
-* Deployment instructions
-
-* ...
+   To run the analysis, use the following command:
+    ```bash
+    rake data_diff:analyze FILE_NAME=your_file_name
+   ```
+    Replace your_file_name with the appropriate file name, such as soccer or w_data. The application will automatically handle file extensions, so you can provide the name with or without the .dat extension.
